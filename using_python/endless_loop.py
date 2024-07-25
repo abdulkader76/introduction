@@ -1,0 +1,8 @@
+# Example of endless loop
+
+import time
+
+while True:
+    time.sleep(1)
+    print(time.asctime())
+    
